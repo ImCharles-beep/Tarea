@@ -1,0 +1,16 @@
+#tarea
+import java.util.Scanner;
+
+public class Celsius {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);// Scanner para leer la entrada del usuario
+        // Solicita la temperatura en grados Celsius
+        System.out.println("ingresa la temperatura en grados Celsius:");
+        // Lee la temperatura ingresada por el usuario
+        double celsius = sc .nextDouble();
+        // Convierte la temperatura a grados Fahrenheit
+        double fahrenheit = (celsius * 9 / 5) + 32;
+        // Muestra la temperatura en grados Fahrenheit
+        System.out.println("la temperatura en grados Fahrenheit es: " + fahrenheit);
+    }
+}
